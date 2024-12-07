@@ -1,18 +1,19 @@
-h1{
-   color: blue;
+
+.table-wrap{
+    max-width: 1200px;
+    margin: auto;
 }
 .member-table {
     border: 1px solid #ddd;
-    width: 50%;
+    width: 100%;
     border-spacing: 0;
     font-family: cursive;
 }
 .member-table thead tr{
     text-align: left;
 }
-.member-table thead th,
-.member-table tbody td{
-    width: 25%;
+.member-table thead th, .member-table tbody td {
+    width: 50%;
     padding: 10px 8px;
 }
 
