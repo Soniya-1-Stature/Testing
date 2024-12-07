@@ -1,3 +1,21 @@
 h1{
-    background-color: red;
+   color: blue;
+}
+.member-table {
+    border: 1px solid #ddd;
+    width: 50%;
+    border-spacing: 0;
+    font-family: cursive;
+}
+.member-table thead tr{
+    text-align: left;
+}
+.member-table thead th,
+.member-table tbody td{
+    width: 25%;
+    padding: 10px 8px;
+}
+
+.member-table tr:nth-child(even),.member-table thead{
+    background-color: rgb(241, 201, 208);
 }
